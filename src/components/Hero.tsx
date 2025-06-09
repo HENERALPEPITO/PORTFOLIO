@@ -1,4 +1,3 @@
-
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -13,13 +12,15 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="animate-fade-in">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-4xl font-bold text-primary-foreground">
-              CS
-            </div>
+            <img 
+              src="/elipan.png" 
+              alt="Carl Benedict Elipan"
+              className="w-64 h-64 mx-auto mb-6 rounded-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Computer Science Student
+            Carl Benedict Elipan
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">

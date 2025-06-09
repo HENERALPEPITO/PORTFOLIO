@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <section id="about" className="py-20 bg-background">
@@ -11,7 +10,11 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="w-full h-80 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <div className="text-6xl font-bold text-muted-foreground">👨‍💻</div>
+                <img 
+                  src="/front.png" 
+                  alt="Profile"
+                  className="w-96 h-80 object-contain rounded-2xl"  
+                />
               </div>
             </div>
             
